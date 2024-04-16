@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HomeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#710798"
+    tools:context=".Buttons">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif"
+        android:text="  Buttons Activity"
+        android:textColor="#F6EAEA"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/closebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/closebtn"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="26dp"
+        android:backgroundTint="#8CDF8F"
+        android:fontFamily="sans-serif"
+        android:text="Close"
+        android:textColorHighlight="#B56969"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/toastbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/disbtn"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#8A7F7F"
+        android:fontFamily="sans-serif"
+        android:text="DIsappear"
+        android:textColorHighlight="#B56969"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chngbtnbg" />
+
+    <Button
+        android:id="@+id/toastbtn"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#EC9BB6"
+        android:fontFamily="sans-serif"
+        android:text="Toast"
+        android:textColorHighlight="#B56969"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/chngbgbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/closebtn" />
+
+    <Button
+        android:id="@+id/chngbtnbg"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#88C5F6"
+        android:fontFamily="sans-serif"
+        android:text="Change Button BG"
+        android:textColorHighlight="#B56969"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/disbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chngbgbtn" />
+
+    <Button
+        android:id="@+id/chngbgbtn"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#E1EA89"
+        android:fontFamily="sans-serif"
+        android:text="Change BG"
+        android:textColorHighlight="#B56969"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/chngbtnbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toastbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
